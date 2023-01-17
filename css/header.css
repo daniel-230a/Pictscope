@@ -1,0 +1,87 @@
+button {
+    background-color: #00bf5d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+header {
+  background-color: white;
+  width: 100%;
+  max-height: 60px;
+  position: fixed;
+  padding: 2px 0;
+  grid-row: 1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 1;
+}
+
+img {
+  user-select: none;
+}
+
+#logout_btn {
+  text-align: right;
+}
+#user {
+  margin: auto;
+}
+.header_logo {
+  margin: auto 20px;
+  height: 60px;
+  border-radius: 50%;
+}
+.user_logout {
+  float: right;
+}
+
+#search_box {
+  background: url(https://www.w3schools.com/css/searchicon.png);
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  background-position: 10px 10px;
+  border: solid;
+  border-radius: 10px;
+  border-color: grey;
+  outline: none;
+}
+
+#search_result {
+  padding: 10px 5px;
+}
+
+#search_result li{
+  list-style: none;
+  clear: both;
+}
+
+.user_search {
+  color: #003569;
+  text-decoration: none;
+}
+
+.search_profile_img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
